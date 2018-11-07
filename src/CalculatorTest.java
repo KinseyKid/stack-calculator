@@ -78,4 +78,9 @@ public class CalculatorTest {
         calc.total();
         assertEquals("[21].", calc.toString());
     }
+    
+    @Test
+    public void testAddVar() {
+    	calc.addVar("4>x");
+    }
 }
